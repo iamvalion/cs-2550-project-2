@@ -1,0 +1,133 @@
+/* Block Elements */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black url("../images/dark-gray-texture.jpg") repeat fixed;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12pt;
+  color: #eceff4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.75em 0 0.25em 0;
+  font-family: "Comfortaa", sans-serif;
+  color: #88c0d0;
+}
+
+.title {
+  background: url("../images/snow.gif") repeat center;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 30pt;
+  color: #b48ead;
+}
+
+p {
+  margin: 1em 0;
+}
+
+blockquote {
+  font-family: "Noto Serif", serif;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-spacing: 3px;
+  background-color: #3b4252;
+  overflow-x: scroll;
+}
+
+tr:nth-child(odd) {
+  background-color: #2e3440;
+}
+
+th {
+  background-image: url("../images/snow.gif");
+  background-size: cover;
+  font-family: "Noto Serif", serif;
+}
+
+th:first-of-type {
+  background: none;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 3px;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Inline Elements */
+
+a {
+  text-decoration: none;
+  color: #81a1c1;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #88c0d0;
+}
+
+/* Custom Classes */
+
+.container {
+  margin: 32px auto;
+  width: 768px;
+  max-width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #2e3440;
+  padding: 32px 64px;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.selfie-container {
+  float: right;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #3b4252;
+  padding: 12px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.selfie {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 256px;
+}
+
+.class-time {
+  background-color: #a3be8c;
+  color: #2e3440;
+}
+
+.study-time {
+  background-color: #8fbcbb;
+  color: #2e3440;
+}
+
+.work-time {
+  background-color: #b48ead;
+  color: #2e3440;
+}
+
+.exercise-time {
+  background-color: #ebcb8b;
+  color: #2e3440;
+}
+
+.gaming-time {
+  background-color: #88c0d0;
+  color: #2e3440;
+}

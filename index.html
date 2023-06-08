@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--
+  --PROJECT INFO--
+  Project: Project 1 - About Me
+  URL: https://calm-marzipan-543860.netlify.app/
+  Name: Jeremy Kennard
+  Submitted: 2023-09-19
+
+  --DISCLAIMER--
+  I declare that the following source code was written by me, or provided
+  by the instructor for this project. I understand that copying source
+  code from any other source, providing source code to another student, 
+  or leaving my code on a public web site constitutes cheating.
+  I acknowledge that  If I am found in violation of this policy this may result
+  in a zero grade, a permanent record on file and possibly immediate failure of the class.
+
+  --REFLECTION--
+    The information in this chapter is largely just a refresher for me, since I've done a
+  good amount of web development stuff in the past. The biggest takeaways I had were related
+  to tables. I haven't done a ton of work with tables in my personal project, but I enjoyed
+  getting acquainted with the basics of them, specifically the objectives of spanning
+  multiple rows, styling different components (cell padding, etc.), and making equal-width
+  columns.
+    The only thing I had a bit of trouble with was making the main content area be centered
+  and responsive, the latter of which I didn't care enough to see through. I also took a
+  little bit of extra time deciding on a color scheme and font (Nord theme with Noto and
+  Comfortaa fonts) and making it all look nice. None of that is part of the actual assignment
+  though, so it didn't matter too much. All in all, I like how it turned out.
+
+  --SELF GRADE--
+  Header                             A
+  Personal Info                      A
+  Fave Books                         A
+  Haiku                              A
+  Essay                              A
+  Schedule                           A
+
+  --EXTRA ITEMS COMPLETED--Minimum of 5
+  Repeating bkg img (2pts)         Yes
+  Change font (2pts)               Yes
+  Rt align photo (2pts)            Yes
+  Indent/center haiku (2pts)       Yes
+  Table-text align (2pts)          Yes
+  Table-color code (2pts)          Yes
+  Table-equal col width (2pts)     Yes
+-->
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <title>About Jeremy Kennard</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="page-header">
+      <h1><a class="title" href="">Jeremy Kennard</a></h1>
+      <div class="selfie-container">
+        <img class="selfie" src="images/selfie.jpg" alt="Me in the snow" title="Me in the snow">
+      </div>
+    </header>
+
+    <section>
+      <h2>Personal Info</h2>
+      <ul>
+        <li><strong>Major:</strong> Computer Science</li>
+        <li>
+          <strong>High School:</strong> Independence High School; Frisco, TX,
+          USA; 2016
+        </li>
+        <li><strong>Current year at UVU:</strong> Sophomore</li>
+        <li><strong>Favorite ice cream:</strong> Non-Dairy Chocolate</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Five Favorite Books</h2>
+      <ol>
+        <li>
+          <em>Sapiens</em>,
+          <a href="https://www.ynharari.com/" target="_blank">Yuval Noah Harari</a>
+        </li>
+        <li>
+          <em>The Moral Landscape</em>,
+          <a href="https://www.samharris.org/" target="_blank">Sam Harris</a>
+        </li>
+        <li>
+          <em>Animal Liberation</em>,
+          <a href="https://petersinger.info/" target="_blank">Peter Singer</a>
+        </li>
+        <li>
+          <em>The 7 Habits of Highly Effective People</em>,
+          <a href="https://www.franklincovey.com/" target="_blank">Stephen Covey</a>
+        </li>
+        <li>
+          <em>1984</em>,
+          <a href="https://www.orwellfoundation.com/" target="_blank">George Orwell</a>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2><em>Soccar</em></h2>
+      <p>
+        The inspiration for this haiku is one of my favorite video games,
+        <a href="https://www.rocketleague.com/" target="_blank">Rocket League</a>. In the words of the developer, it is
+        a "high-powered hybrid of
+        arcade-style soccer and vehicular mayhem". I'm obsessed.
+      </p>
+      <blockquote>
+        Childhood dreams combine:<br>Rockets, RC cars, soccer.<br>This is
+        Rocket League!
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <p>
+        I enjoy learning about <u>cybersecurity</u> and
+        <u>software engineering</u>, both in school and as a hobby. They are
+        fascinating fields because I enjoy building things and immersing
+        myself in the ever-changing and expanding digital world we live in. I
+        very naturally gravitated toward this career path. In the past few
+        years I have become more focused on digital security and privacy, as
+        they need to be taken seriously when technology is evolving at such a
+        rapid pace.
+      </p>
+      <p>
+        I also am very interested in <u>music</u>. It's captivating,
+        transcends cultural barriers, and connects people. I listen to a
+        ridiculous amount of music, and I hope to eventually produce some of
+        my own. Lately I was able to reconnect with some old friends, and
+        we've been having jam sessions where we play our various instruments,
+        do a bit of song writing, and dabble with mixing and mastering.
+      </p>
+      <p>
+        Last year I started <u>rock climbing</u>, specifically bouldering.
+        Bouldering is type of climbing with a focus on shorter routes. This
+        requires a lot of strength, technique, and problem-solving; at the
+        same time, it requires very little gear, which I like. It has been a
+        great experience for me, as I have been able to improve myself
+        physically, mentally, socially, and even spiritually. This has
+        happened as I've trained very hard, strategically overcome mental
+        barriers, connected with many lovely people, and spent more time in
+        nature (though most of my climbing is indoor).
+      </p>
+    </section>
+
+    <section>
+      <h2>Class Schedule</h2>
+      <table>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>10:00</td>
+          <td class="class-time" rowspan="3">CS 2810 Class</td>
+          <td class="class-time" rowspan="3">CS 2810 Class</td>
+          <td class="class-time" rowspan="3">CS 2810 Class</td>
+          <td class="class-time" rowspan="3">CS 2810 Class</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10:30</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11:30</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>12:30</td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+        </tr>
+        <tr>
+          <td>13:30</td>
+        </tr>
+        <tr>
+          <td>14:00</td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td class="study-time" rowspan="3">CS 2550 & HLTH 1100 Homework</td>
+          <td class="exercise-time" rowspan="2">Exercise</td>
+          <td class="study-time" rowspan="3">CS 2550 & HLTH 1100 Homework</td>
+          <td class="exercise-time" rowspan="2">Exercise</td>
+          <td class="gaming-time" rowspan="3">Gaming</td>
+        </tr>
+        <tr>
+          <td>15:30</td>
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td class="study-time">CS 2550 & HLTH 1100 Homework</td>
+          <td class="study-time">CS 2550 & HLTH 1100 Homework</td>
+        </tr>
+        <tr>
+          <td>16:30</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+          <td class="work-time" rowspan="6">Work</td>
+        </tr>
+        <tr>
+          <td>17:00</td>
+        </tr>
+        <tr>
+          <td>17:30</td>
+        </tr>
+        <tr>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>18:30</td>
+        </tr>
+        <tr>
+          <td>19:00</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+
+</html>
